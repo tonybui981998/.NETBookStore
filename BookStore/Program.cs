@@ -1,7 +1,18 @@
+﻿using BookStore.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 0, 21)) // Điều chỉnh phiên bản MySQL của bạn tại đây
+    )
+);
 
 var app = builder.Build();
 
