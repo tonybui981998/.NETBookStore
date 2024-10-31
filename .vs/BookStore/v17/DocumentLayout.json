@@ -3,13 +3,19 @@
   "WorkspaceRootPath": "\\\\Mac\\Home\\Documents\\BookStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B675915-8A4B-4FF6-8C34-2C7287F3020E}|BookStore\\BookStore.csproj|\\\\mac\\home\\documents\\bookstore\\bookstore\\controllers\\catergorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B675915-8A4B-4FF6-8C34-2C7287F3020E}|BookStore\\BookStore.csproj|\\\\mac\\home\\documents\\bookstore\\bookstore\\views\\catergory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B675915-8A4B-4FF6-8C34-2C7287F3020E}|BookStore\\BookStore.csproj|\\\\mac\\home\\documents\\bookstore\\bookstore\\views\\catergory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B675915-8A4B-4FF6-8C34-2C7287F3020E}|BookStore\\BookStore.csproj|\\\\mac\\home\\documents\\bookstore\\bookstore\\views\\catergory\\createnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B675915-8A4B-4FF6-8C34-2C7287F3020E}|BookStore\\BookStore.csproj|\\\\mac\\home\\documents\\bookstore\\bookstore\\controllers\\catergorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B675915-8A4B-4FF6-8C34-2C7287F3020E}|BookStore\\BookStore.csproj|\\\\mac\\home\\documents\\bookstore\\bookstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B675915-8A4B-4FF6-8C34-2C7287F3020E}|BookStore\\BookStore.csproj|\\\\mac\\home\\documents\\bookstore\\bookstore\\views\\catergory\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 17,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,12 +46,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Catergory\\Index.cshtml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\Index.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Catergory\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T01:34:35.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BookStore\\Models\\Category.cs",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Models\\Category.cs",
+              "RelativeToolTip": "BookStore\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T01:05:01.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\Edit.cshtml",
               "RelativeDocumentMoniker": "BookStore\\Views\\Catergory\\Edit.cshtml",
               "ToolTip": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\Edit.cshtml",
               "RelativeToolTip": "BookStore\\Views\\Catergory\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-30T21:56:16.315Z",
               "EditorCaption": ""
@@ -53,27 +85,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\Catergory\\Index.cshtml",
-              "ToolTip": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\Index.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\Catergory\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T21:32:20.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CatergoryController.cs",
               "DocumentMoniker": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Controllers\\CatergoryController.cs",
               "RelativeDocumentMoniker": "BookStore\\Controllers\\CatergoryController.cs",
               "ToolTip": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Controllers\\CatergoryController.cs",
               "RelativeToolTip": "BookStore\\Controllers\\CatergoryController.cs",
-              "ViewState": "AQIAACAAAAAAyszMzAwvwDkAAAAfAAAA",
+              "ViewState": "AQIAADoAAAAAZWZmZiY1wFQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T04:31:40.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateNew.cshtml",
+              "DocumentMoniker": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\CreateNew.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Catergory\\CreateNew.cshtml",
+              "ToolTip": "\\\\Mac\\Home\\Documents\\BookStore\\BookStore\\Views\\Catergory\\CreateNew.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Catergory\\CreateNew.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T01:18:18.958Z",
               "EditorCaption": ""
             }
           ]

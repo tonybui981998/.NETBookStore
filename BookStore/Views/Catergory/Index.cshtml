@@ -30,7 +30,9 @@
                     </td>
                     <td>
                         <div class="w-75 btn-group" role="group">
-                            <a class="btn btn-danger " asp-controller="Catergory" ><i class="bi bi-trash3-fill h3 text-white"></i></a>
+                            <form method="post" asp-action="Delete" asp-controller="Catergory" asp-route-Id="@obj.Id">
+                                <button class="btn btn-danger" type="submit" value="Delete"><i class="bi bi-trash3-fill h3 text-white"></i></button>
+                            </form>
                         </div>
                     </td>
         </tr>

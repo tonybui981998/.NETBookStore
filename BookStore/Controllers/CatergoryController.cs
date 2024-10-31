@@ -43,18 +43,8 @@ namespace BookStore.Controllers
             
            
         }
-        public IActionResult DeleteP()
-        {
-            return View();
-        }
-        [HttpDelete]
-        public IActionResult DeleteP(Category id)
-        {
-            _db.Categories.Remove(id);
-            return RedirectToAction("Index");
-        }
 
-       
+      
         public IActionResult Edit(int ? id)
         {
             if(id == null || id == 0)
@@ -64,6 +54,35 @@ namespace BookStore.Controllers
             Category categoryFrommDb = _db.Categories.Find(id);
             if(categoryFrommDb == null) { return NotFound(); }
             return View(categoryFrommDb);
+        }
+        [HttpPost]
+        public IActionResult Edit(Category category)
+        {
+            if(category == null)
+            {
+                return NotFound();
+            }
+          
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Update(category);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+            
+
+        }
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var getId = _db.Categories.Find(id);
+            if (getId == null) {
+                return NotFound();
+            }
+            _db.Categories.Remove(getId);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }

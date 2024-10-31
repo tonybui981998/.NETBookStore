@@ -1,1 +1,32 @@
-﻿<h1>Edit</h1>
+﻿@model Category
+
+<form method="post">
+    <div class="border p-3 mt-4 ">
+        <div class="row pb-2 ">
+            <h2 class="text-primary">Edit Catergory</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="mb-3 row p-1">
+            <label class="p-0" asp-for="Name"></label>
+            <input asp-for="Name" type="text" class="form-control mt-2" />
+            @*  <span asp-validation-for="Name" class="text-danger"></span> *@
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="DisplayOrder"></label>
+            <input asp-for="DisplayOrder" type="text" class="form-control mt-2" />
+            @*  <span asp-validation-for="DisplayOrder" class="text-danger"></span> *@
+        </div>
+        <div class="row col-12">
+            <div class="col-6 col-md-3"> <button type="submit" class="btn btn-primary form-control">Submit</button></div>
+
+            <div class="col-6 col-md-3 border"> <a asp-controller="Catergory" asp-action="Index" class="btn btn-secondary form-control">Back to list</a></div>
+
+        </div>
+
+
+
+
+
+    </div>
+</form>
